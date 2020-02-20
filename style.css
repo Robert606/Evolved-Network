@@ -4,36 +4,35 @@
     URL: https://www.evolved-network.com
     Description: Official Evolved Network website
     Author: Middel#9816
-    Version: 0.5
+    Version: 1.0
 
 -----------------------------------------------------------------------------------*/
 
 /*-----------------------------------------------------------------------------------  
-     CSS INDEX
+    CSS INDEX
     ===================
 
-    1. Theme Default CSS (body, link color, section etc)
-    2. Header Top Area
-       2.1 Header Bottom Area
-       2.1 Sticky Header Area
-       2.3. Mobile Menu Area
+    1. Design Default CSS
+    2. Navigation Area
+       2.1 Navigation Bottom Area
+       2.1 Sticky Navigation Area
+       2.3. Mobile Navigation Area
     3. Slider Area
-    4. Services Area
-	5.Product Area
-	6.Gallery Area
-	7.Reviews Area
-	8.Challange Area
-	9. Blog Area
-	10. Footer Area
-	11. Breadcumbs Area
-	12. About feature area
-	13. Team Area
-	14. Faq page Area
-	15. Error page area
-	16.	Contact Us  CSS
-	17. Blog Sidebar Area
-	18. Blog Details
-	19. Game Details   
+    4. Games Area
+    5. Servers Area
+    6. Gallery Area
+    7. Reviews Area
+    8. Events Area
+    9. News Area
+    10. Footer Area
+    11. Breadcumbs Area
+    12. About area
+    13. Staff Area
+    14. FAQ Area
+    15. Error page area
+    16. Contact Us CSS
+    17. News Articles
+    18. Server Pages
 -----------------------------------------------------------------------------------*/
 
 /*----------------------------------------*/
@@ -42,7 +41,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Open+Sans:400,600,700,800');
 
 /*----------------------------------------*/
-/*  1.  Theme default CSS
+/*  1. Design Default CSS
 /*----------------------------------------*/
 html, body {
 	height: 100%;
@@ -376,7 +375,7 @@ div#preloader {
 }
 
 /*----------------------------------------*/
-/*  2.1 Header Area 
+/*  2.1 Navigation Bottom Area
 /*----------------------------------------*/
 .header-one{
     position: absolute;
@@ -554,7 +553,7 @@ div#preloader {
 }
 
 /*--------------------------------*/
-/* 2.2. Sticky Header Area
+/* 2.2. Sticky Navigation Area
 /*--------------------------------*/
 .header-area.stick {
     left: 0;
@@ -600,7 +599,7 @@ div#preloader {
 }
 
 /*----------------------------------------*/
-/*  2.3. Mobile Menu Area
+/*  2.3. Mobile Navigation Area
 /*----------------------------------------*/
 .mobile-menu-area {
     background: rgba(0,0,0,0.60);
@@ -798,7 +797,7 @@ div#preloader {
 }
 
 /*--------------------------------*/
-/* 5. Services Area
+/* 4. Games Area
 /*--------------------------------*/
 .services-area{
 	position: relative;
@@ -967,7 +966,7 @@ div#preloader {
 }
 
 /*--------------------------------*/
-/* 6.Product Area
+/* 5. Servers Area
 /*--------------------------------*/
 .product-area{
 	position: relative;
@@ -1092,7 +1091,7 @@ div#preloader {
 }
 
 /*--------------------------------*/
-/*  7.Gallery Area
+/*  6. Gallery Area
 /*--------------------------------*/
 .project-area{
 	position: relative;
@@ -1189,7 +1188,7 @@ div#preloader {
 }
 
 /*--------------------------------*/
-/* 8.Reviews Area
+/* 7. Reviews Area
 /*--------------------------------*/
 .reviews-area{
 	position: relative;
@@ -1288,7 +1287,7 @@ div#preloader {
 }
 
 /*--------------------------------*/
-/* 9.Challange Area
+/* 8. Events Area
 /*--------------------------------*/
 .challange-area{
 	position: relative;
@@ -1387,7 +1386,7 @@ div#preloader {
 }
 
 /*----------------------------------------*/
-/*  10. Blog Area
+/*  9. News Area
 /*----------------------------------------*/
 .blog-area{
   position: relative;
@@ -1458,7 +1457,7 @@ div#preloader {
 }
 
 /*----------------------------------------*/
-/*  11. Footer Area
+/*  10. Footer Area
 /*----------------------------------------*/
 .footer-area {
     padding: 100px 0;
@@ -1603,7 +1602,7 @@ div#preloader {
 }
 
 /*----------------------------------------*/
-/*  12. Breadcumbs Area
+/*  11. Breadcumbs Area
 /*----------------------------------------*/
 .page-area{
     position: relative;
@@ -1675,7 +1674,7 @@ div#preloader {
 }
 
 /*----------------------------------------*/
-/*  13. About area
+/*  12. About area
 /*----------------------------------------*/
 .About-feature-area{
 	position: relative;
@@ -1780,7 +1779,7 @@ div#preloader {
 }
 
 /*----------------------------------------*/
-/*  14. Team Area
+/*  13. Staff Area
 /*----------------------------------------*/
 .team-area {
    position: relative;
@@ -1843,7 +1842,7 @@ div#preloader {
 }
 
 /*--------------------------------*/ 
-/* 15. Faq page Area
+/* 14. FAQ Area
 /*--------------------------------*/
 .business-faq {
     background: #0d0b26;
@@ -1942,7 +1941,7 @@ div#preloader {
 }
 
 /*--------------------------------*/ 
-/* 16. Error page area
+/* 15. Error page area
 /*--------------------------------*/
 .error-easy-text {
     font-weight: 700;
@@ -1977,7 +1976,7 @@ div#preloader {
      transition: all 0.3s ease 0s;
 }
 /*----------------------------------------*/
-/*  17.	Contact Us  CSS
+/*  16.	Contact Us CSS
 /*----------------------------------------*/
 .single-icon i {
     font-size: 34px;
@@ -2058,220 +2057,7 @@ div#preloader {
 }
 
 /*----------------------------------------*/
-/*  18. Blog Sidebar Area
-/*----------------------------------------*/
-.blog-search-option input {
-    padding: 5px 15px;
-    width: 80%;
-    border: none;
-    height: 52px;
-    background: #272644;
-}
-.left-head-blog {
-    padding-left: 40px;
-}
-.blog-search-option {
-    margin-bottom: 30px;
-    display: block;
-    border: 1px solid #272644;
-    border-radius: 2px;
-    background: #272644;
-}
-.blog-search-option button {
-    background: transparent;
-    border: none;
-}
-.blog-search-option button i {
-    line-height: 16px;
-    font-size: 20px;
-    padding: 0px 10px;
-}
-.blog-search-option button i:hover {
-    color: #EC9123;
-}
-.left-blog h4 {
-    color: #fff;
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 5px;
-    padding: 15px 0px;
-    text-transform: capitalize;
-    position: relative;
-}
-.left-blog h4::after{
-    position: absolute;
-    content: "";
-    left:0px;
-    bottom:0px;
-    width: 80px;
-    height: 1px;
-    background: #EC9123;
-}
-.left-blog {
-    overflow: hidden;
-    padding-bottom: 20px;
-}
-.left-blog li {
-    display: block;
-}
-.left-blog ul li a {
-    color: #cecde9;
-    display: block;
-    font-size: 15px;
-    padding: 8px 0px 8px 20px;
-    text-transform: capitalize;
-    position: relative;
-}
-.pst-content .date-type{
-	font-size: 14px;
-}
-.left-blog ul li a::before {
-    position: absolute;
-    content: "";
-    top: 20px;
-    left: 0;
-    background: #EC9123;
-    height: 6px;
-    width: 6px;
-    border-radius: 1px;
-}
-.left-blog ul li a::after {
-    position: absolute;
-    content: "\e876";
-    top: 8px;
-    right: 0;
-    color: #EC9123;
-    font-family: cavalier;
-    font-size: 13px;
-}
-.popular-tag.left-blog ul li a::before,
-.popular-tag.left-blog ul li a::after{
-    display: none;
-}
-.recent-single-post {
-    display: block;
-    overflow: hidden;
-    padding: 15px 0px;
-}
-.recent-single-post:last-child {
-    border-bottom: none;
-}
-.post-img {
-    display: inline-block;
-    float: left;
-    padding-right: 10px;
-    width: 32%;
-    height: 100%;
-    min-height: 85px;
-}
-.post-img a {
-    display: block;
-}
-.post-img a img {
-    width: 100%;
-    height: 100%;
-    min-height: 85px;
-    object-fit: cover;
-    border-radius: 3px;
-}
-.pst-content {
-    display: inline-block;
-    float: left;
-    width: 65%;
-    padding-left: 10px;
-}
-.pst-content p a:hover,.left-blog ul li a:hover {
-    color: #EC9123;
-}
-.blog-page-area .blog-content {
-    background: #f9f9f9;
-}
-.pst-content p a {
-    color: #fff;
-    font-size: 15px;
-    font-weight: 600;
-}
-.blog-tags {
-    padding: 1px 0;
-}
-.left-blog li:last-child {
-    border-bottom: 0 ;
-}
-.popular-tag.left-blog ul li a:hover{
-    color: #fff;
-}
-.popular-tag.left-side-tags.left-blog ul {
-    padding:0px;
-}
-.left-tags .left-side-tags ul li {
-    border-bottom: 0;
-    display: inline-block;
-    margin: 6px 0px;
-}
-.left-tags .left-side-tags ul li a {
-    padding: 5px 10px;
-    width: auto;
-    border: 1px solid #0d0b26;
-    background: #0d0b26;
-    color: #ddd;
-    border-radius: 2px;
-    font-weight: 500;
-    font-size: 14px;
-}
-.left-tags .left-side-tags ul li a:hover {
-    border: 1px solid #EC9123;
-    background: #EC9123;
-	color:#fff
-}
-.left-side-tags h4 {
-    margin-bottom: 15px;
-}
-.pagination {
-    display: inline-block;
-    padding-left: 0;
-    margin: 10px 0 0px;
-    border-radius: 4px;
-}
-.pagination>li>a, 
-.pagination>li>span {
-    position: relative;
-    float: left;
-    padding: 6px 12px;
-    line-height: 1.42857143;
-    text-decoration: none;
-    color: #fff;
-    background-color: #0d0b26;
-    border: none;
-    margin-left: -1px;
-    border-radius: 5px;
-}
-.pagination>li {
-    display: inline-block;
-    margin: 0px 3px 0px 0px;
-}
-.pagination>.active>a, 
-.pagination>.active>span, 
-.pagination>.active>a:hover, 
-.pagination>.active>span:hover, 
-.pagination>.active>a:focus, 
-.pagination>.active>span:focus{
-    z-index: 3;
-    color: #fff;
-    background-color: #EC9123;
-    border-color: #EC9123;
-    cursor: default;
-    border-radius: 5px;
-}
-.pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus {
-    z-index: 2;
-    color: #fff;
-    background-color: #EC9123;
-    border-color: #EC9123;
-    border-radius: 2px;
-}
-
-/*----------------------------------------*/
-/*  19. Blog Details
+/*  17. News Articles
 /*----------------------------------------*/
 .blog-details .blog-content {
     background: #0d0b26;
@@ -2408,7 +2194,7 @@ span.email-notes{
 }
 
 /*----------------------------------------*/
-/*  20. Game Details
+/*  18. Server Pages
 /*----------------------------------------*/
 .game-details-page .product-content{
 	padding: 0px;
