@@ -18,21 +18,19 @@
        2.1 Sticky Navigation Area
        2.3. Mobile Navigation Area
     3. Slider Area
-    4. Games Area
-    5. Servers Area
-    6. Gallery Area
-    7. Reviews Area
-    8. Events Area
-    9. News Area
-    10. Footer Area
-    11. Breadcumbs Area
-    12. About area
-    13. Staff Area
-    14. FAQ Area
-    15. Error page area
-    16. Contact Us CSS
-    17. News Articles
-    18. Server Pages
+    4. Gallery Area
+    5. Reviews Area
+    6. Events Area
+    7. News Area
+    8. Footer Area
+    9. Breadcumbs Area
+    10. About area
+    11. Staff Area
+    12. FAQ Area
+    13. Error page area
+    14. Contact Us CSS
+    15. News Articles
+    16. Server Pages
 -----------------------------------------------------------------------------------*/
 
 /*----------------------------------------*/
@@ -797,301 +795,7 @@ div#preloader {
 }
 
 /*--------------------------------*/
-/* 4. Games Area
-/*--------------------------------*/
-.services-area{
-	position: relative;
-}
-.services-all{
-	margin-top: -30px;
-}
-.services-carousel .owl-stage-outer{
-	padding-bottom: 5px;
-}
-.single-services{
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    z-index: 1;
-	position: relative;
-}
-.main-services {
-    display: block;
-    position: absolute;
-    padding: 20px;
-    top: 57%;
-    left: 0;
-    z-index: 2;
-    margin-top: -40px;
-    opacity: 0;
-    right: 0;
-}
-.single-services:hover .main-services {
-    opacity: 1;
-}
-.main-services p{
-	color:#cecde9;
-}
-.services-icon {
-    width: 60px;
-    float: left;
-    height: 100px;
-    font-size: 40px;
-    color: #EC9123;
-}
-.services-img {
-    overflow: hidden;
-    position: relative;
-}
-.services-img img {
-    transform: scale(1.1);
-    transition: 0.4s;
-}
-.image-layer {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(18,16,47,0.90) none repeat scroll 0 0;
-    z-index: 1;
-    opacity: 0;
-	transition: 0.4s;
-}
-.image-layer img {
-    text-align: center;
-    position: relative;
-    top: 26%;
-    margin-top: -10px;
-    height: 100px;
-    width: 100px !important;
-    right: 0;
-    left: 0;
-    margin: 0px auto 30px;
-}
-.service-content h4 {
-    display: inline-block;
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 0;
-    padding: 0 0 10px;
-    text-transform: capitalize;
-}
-.service-btn {
-    font-weight: 600;
-    color: #f0f0f0;
-    position: relative;
-    font-size: 16px;
-}
-.service-btn::after {
-    position: absolute;
-    content: "";
-    left: 0px;
-    bottom: 0px;
-    background: #EC9123;
-    width: 0%;
-    height: 1px;
-    transition: 0.4s;
-}
-.single-services:hover .services-img img {
-    transform: scale(1);
-    transition: 0.4s;
-}
-
-.single-services:hover .image-layer {
-	transition: 0.4s;
-	opacity: 1;
-}
-.single-services:hover .service-content h4{
-    color: #fff;
-}
-.single-services:hover .service-btn:hover{
-    color: #EC9123;
-}
-.single-services:hover .service-btn:hover::after{
-    transition: 0.4s;
-    width: 100%;
-}
-.services-carousel .col-md-4{
-	width: 100%;
-}
-.services-carousel.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-prev, 
-.services-carousel.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-next {
-    color: #fff;
-    font-size: 18px;
-    margin-top: -20px;
-    position: absolute;
-    top: 50%;;
-    text-align: center;
-    line-height: 39px;
-    opacity: 0;
-    border:1px solid #EC9123;
-	background: #EC9123;
-    width: 40px;
-    height: 40px;
-}
-.services-carousel.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-prev{
-    left: 10%;
-    -webkit-transition: 0.4s;
-    -moz-transition: 0.4s;
-    -o-transition: 0.4s;
-    -ms-transition: 0.4s;
-}
-.services-carousel.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-next {
-    right: 10%;
-    -webkit-transition: 0.4s;
-    -moz-transition: 0.4s;
-    -o-transition: 0.4s;
-    -ms-transition: 0.4s;
-}
-.services-carousel.owl-carousel.owl-theme:hover .owl-controls .owl-nav div.owl-next{
-    right: 1%;
-    -webkit-transition: 0.4s;
-    -moz-transition: 0.4s;
-    -o-transition: 0.4s;
-    -ms-transition: 0.4s;
-    opacity: 1;
-}
-.services-carousel.owl-carousel.owl-theme:hover .owl-controls .owl-nav div.owl-prev{
-    left: 1%;
-    -webkit-transition: 0.4s;
-    -moz-transition: 0.4s;
-    -o-transition: 0.4s;
-    -ms-transition: 0.4s;
-    opacity: 1;
-}
-.services-carousel.owl-carousel.owl-theme:hover .owl-controls .owl-nav div.owl-next:hover,
-.services-carousel.owl-carousel.owl-theme:hover .owl-controls .owl-nav div.owl-prev:hover{
-    color:#EC9123;
-    background: transparent;
-    transition: all 0.4s ease 0s;
-}
-
-/*--------------------------------*/
-/* 5. Servers Area
-/*--------------------------------*/
-.product-area{
-	position: relative;
-}
-.single-product{
-	display: block;
-}
-.single-product .col-md-6{
-	padding-left: 0px;
-	padding-right: 0px;
-}
-.category {
-    position: absolute;
-    top: 0;
-    left: 20px;
-    background: #EC9123;
-    padding: 4px 15px;
-    color: #fff;
-    font-size: 18px;
-    z-index: 20;
-    font-weight: 600;
-}
-.product-content {
-    padding: 70px 30px;
-}
-.product-name {
-    text-align: center;
-    text-transform: capitalize;
-    font-size: 26px;
-    font-weight: 600;
-}
-.product-name > a{
-    color: #fff;
-}
-.launch-date span {
-    color: #cecde9;
-    font-size: 16px;
-    line-height: 26px;
-}
-.no-rating a:last-child {
-    color: #cecde9;
-}
-.download-btn {
-    padding-top: 30px;
-}
-.pro-rating a {
-    color: #EC9123;
-    font-size: 16px;
-}
-.price-box {
-    margin-top: 10px;
-}
-.price-box span {
-	color:#cecde9;
-	font-size: 20px;
-}
-.rating-rate {
-    color: #cecde9;
-    display: block;
-    padding: 10px 0px;
-    font-size: 16px;
-}
-.play-btn{
-    display: inline-block;
-    margin: 0px 10px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.4s;
-}
-.left-btn{
-    background: #1e0d7f;
-}
-.right-btn{
-    background: #3624a0;
-}
-.product-name > a:hover{
-	color:#EC9123;
-}
-.left-btn:hover{
-	background:#3624a0;
-	transition: 0.4s;
-}
-.right-btn:hover{
-	background:#1e0d7f;
-	transition: 0.4s;
-}
-.product-img {
-    position: relative;
-	z-index: 1;
-}
-.product-img::after{
-	position:absolute;
-    left:0;
-    top:0;
-    width:100%;
-    height:100%;
-    background: rgba(18,16,47,0.80) none repeat scroll 0 0;
-    content:"";
-	transition: 0.4s;
-	opacity: 0;
-}
-.video-play{
-    position: absolute;
-    top: 50%;
-    right: 0;
-    left: 0;
-    text-align: center;
-    color: #cecde9;
-    font-size: 50px;
-    margin-top: -25px;
-	z-index: 10;
-	opacity: 0;
-}
-.single-product:hover .video-play{
-	opacity: 1;
-	transition: 0.4s;
-}
-.single-product:hover .product-img::after{
-	opacity: 1;
-	transition: 0.4s;
-}
-
-/*--------------------------------*/
-/*  6. Gallery Area
+/*  4. Gallery Area
 /*--------------------------------*/
 .project-area{
 	position: relative;
@@ -1188,7 +892,7 @@ div#preloader {
 }
 
 /*--------------------------------*/
-/* 7. Reviews Area
+/* 5. Reviews Area
 /*--------------------------------*/
 .reviews-area{
 	position: relative;
@@ -1287,7 +991,7 @@ div#preloader {
 }
 
 /*--------------------------------*/
-/* 8. Events Area
+/* 6. Events Area
 /*--------------------------------*/
 .challange-area{
 	position: relative;
@@ -1386,7 +1090,7 @@ div#preloader {
 }
 
 /*----------------------------------------*/
-/*  9. News Area
+/*  7. News Area
 /*----------------------------------------*/
 .blog-area{
   position: relative;
@@ -1457,7 +1161,7 @@ div#preloader {
 }
 
 /*----------------------------------------*/
-/*  10. Footer Area
+/*  8. Footer Area
 /*----------------------------------------*/
 .footer-area {
     padding: 100px 0;
@@ -1602,7 +1306,7 @@ div#preloader {
 }
 
 /*----------------------------------------*/
-/*  11. Breadcumbs Area
+/*  9. Breadcumbs Area
 /*----------------------------------------*/
 .page-area{
     position: relative;
@@ -1674,7 +1378,7 @@ div#preloader {
 }
 
 /*----------------------------------------*/
-/*  12. About area
+/*  10. About area
 /*----------------------------------------*/
 .About-feature-area{
 	position: relative;
@@ -1779,7 +1483,7 @@ div#preloader {
 }
 
 /*----------------------------------------*/
-/*  13. Staff Area
+/*  11. Staff Area
 /*----------------------------------------*/
 .team-area {
    position: relative;
@@ -1842,7 +1546,7 @@ div#preloader {
 }
 
 /*--------------------------------*/ 
-/* 14. FAQ Area
+/* 12. FAQ Area
 /*--------------------------------*/
 .business-faq {
     background: #0d0b26;
@@ -1941,7 +1645,7 @@ div#preloader {
 }
 
 /*--------------------------------*/ 
-/* 15. Error page area
+/* 13. Error page area
 /*--------------------------------*/
 .error-easy-text {
     font-weight: 700;
@@ -1976,7 +1680,7 @@ div#preloader {
      transition: all 0.3s ease 0s;
 }
 /*----------------------------------------*/
-/*  16.	Contact Us CSS
+/*  14.	Contact Us CSS
 /*----------------------------------------*/
 .single-icon i {
     font-size: 34px;
@@ -2057,7 +1761,7 @@ div#preloader {
 }
 
 /*----------------------------------------*/
-/*  17. News Articles
+/*  15. News Articles
 /*----------------------------------------*/
 .blog-details .blog-content {
     background: #0d0b26;
@@ -2194,7 +1898,7 @@ span.email-notes{
 }
 
 /*----------------------------------------*/
-/*  18. Server Pages
+/*  16. Server Pages
 /*----------------------------------------*/
 .game-details-page .product-content{
 	padding: 0px;
