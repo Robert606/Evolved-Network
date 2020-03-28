@@ -33,7 +33,7 @@ if (empty($_POST["message"])) {
 
 
 $EmailTo = "contact@evolved-network.com";
-$Subject = "New Message Received";
+$Subject = "Evolved Network Contact Form Message Received!";
 
 // prepare email body text
 $Body = "";
